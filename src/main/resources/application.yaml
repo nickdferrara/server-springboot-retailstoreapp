@@ -5,3 +5,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/mydatabase
     username: myuser
     password: secret
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
